@@ -21,9 +21,15 @@ header h1 {
     font-size: 4rem;
     margin: 0;
     background: linear-gradient(90deg, #00b0ff, #ff9100);
+    
+    /* 標準的な書き方を上に追加（まだ動かないブラウザ用） */
+    background-clip: text;
+    
+    /* Chrome/Safari用（これがないとグラデーションにならない） */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 /* スクロール後の中身 */
 main {
