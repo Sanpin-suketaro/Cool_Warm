@@ -241,3 +241,52 @@ section.is-visible {
     font-size: 1.1rem;
     line-height: 1.8;
 }
+
+/* パッケージセクションのデザイン */
+.package-reveal {
+    margin-bottom: 100px; /* 下の「3つの強み」との間隔をあける */
+}
+
+.package-card {
+    background: #ffffff;
+    border: 2px solid #f0f0f0;
+    padding: 50px 30px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+
+.package-tag {
+    background: #ff9100; /* パッケージは温かみのあるオレンジのタグに */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.package-card h3 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.package-image-container {
+    margin: 30px 0;
+}
+
+.package-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    /* 柔らかい影をつけて質感を出す */
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+}
+
+.package-card p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
